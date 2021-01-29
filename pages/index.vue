@@ -101,6 +101,7 @@
     <div class="max-w-6xl mx-auto">
       <h2 class="px-12 mb-8">Stock Performance</h2>
       <img class="px-12" src="/stock.png" />
+      
       <div class="flex w-full py-12">
         <div
           class="flex flex-col w-full w-1/4 items-center justify-center icons"
@@ -141,5 +142,4 @@ export default {};
 @apply min-h-screen flex justify-center items-center text-center mx-auto;
 }
 */
-
 </style>

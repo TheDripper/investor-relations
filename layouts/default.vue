@@ -25,6 +25,10 @@
   src: url("/body-bold.ttf");
 }
 @font-face {
+  font-family: "body-book";
+  src: url("/body-book.ttf");
+}
+@font-face {
   font-family: "body-heavy";
   src: url("/body-heavy.ttf");
 }
@@ -122,5 +126,15 @@ a {
 }
 .font-bold {
   font-family: "body-heavy" !important;
+}
+label {
+  font-family: "body-bold" !important;
+}
+.text-light-grey {
+  color: #b8b8b8;
+}
+th {
+  color: #376205 !important;
+  font-family: "body-bold" !important; 
 }
 </style>
