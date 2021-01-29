@@ -1,5 +1,16 @@
 <template>
   <div>
+    <ul class="flex justify-center top-nav">
+      <li>
+        <a href="/"><h3>Investor Relations</h3></a>
+      </li>
+      <li>
+        <a href="/stock-information"><h3>Stock Information</h3></a>
+      </li>
+      <li>
+        <a href="/leadership"><h3>Leadership</h3></a>
+      </li>
+    </ul>
     <Nuxt />
   </div>
 </template>
@@ -135,6 +146,24 @@ label {
 }
 th {
   color: #376205 !important;
-  font-family: "body-bold" !important; 
+  font-family: "body-bold" !important;
+}
+.top-nav {
+  a {
+    text-decoration: none;
+  }
+  h3 {
+    @apply mx-4 py-6 uppercase relative;
+    &:after {
+      content: '';
+      width: 1px;
+      height: 18px;
+      border-right: 1px solid #eaeaea;
+      position: absolute;
+      right: -1rem;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
 }
 </style>
