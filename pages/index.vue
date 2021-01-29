@@ -2,42 +2,80 @@
   <div id="investor-relations">
     <div class="w-full hero pt-8">
       <div class="w-full mt-8 mb-32 flex items-center bg-grey py-16 px-8">
-        <div class="flex flex-col pr-12">
-          <h3>INVESTORS</h3>
-          <h1>Investor Relations</h1>
-        </div>
-        <div class="flex flex-col pl-12 border-l border-grey">
-          <p class="mb-8">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec ac
-            odio tempor orci dapibus ultrices. Eu ultrices vitae auctor eu augue
-            ut. Tellus elementum sagittis vitae et leo duis ut.
-          </p>
-          <div class="flex">
-            <a href="#" class="button mr-4">2019 Annual Report</a>
-            <a href="#" class="button">Investor Presentation</a>
+        <div class="max-w-6xl flex items-center mx-auto">
+          <div class="flex flex-col pr-12">
+            <h3>INVESTORS</h3>
+            <h1>Investor Relations</h1>
+          </div>
+          <div class="flex flex-col pl-12 border-l border-grey">
+            <p class="mb-8">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec
+              ac odio tempor orci dapibus ultrices. Eu ultrices vitae auctor eu
+              augue ut. Tellus elementum sagittis vitae et leo duis ut.
+            </p>
+            <div class="flex">
+              <a href="#" class="button mr-4">2019 Annual Report</a>
+              <a href="#" class="button">Investor Presentation</a>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="flex w-full mt-12 px-4 pb-12">
+    <div class="flex w-full p-12 max-w-6xl mx-auto">
       <div style="flex:75%;">
-        <h1>Press Releases</h1>
-        <ul>
-          <li>Link 1</li>
-          <li>Link 1</li>
-          <li>Link 1</li>
-          <li>Link 1</li>
-        </ul>
-        <a href="#" class="button">View All Press Releases</a>
-        <h1 class="mt-12">Earnings Releases</h1>
-        <ul>
-          <li>Link 1</li>
-          <li>Link 1</li>
-          <li>Link 1</li>
-          <li>Link 1</li>
-        </ul>
-        <a href="#" class="button">View All Earnings Releases</a>
+        <div class="flex flex-col items-start">
+          <h2>Press Releases</h2>
+          <ul class="list-disc pl-6">
+            <li>
+              <a href="#"
+                >Carriage Services 3Q20 Earnings Webcast (0ct 28, 2020)</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                >Carriage Services 3Q20 Earnings Webcast (0ct 28, 2020)</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                >Carriage Services 3Q20 Earnings Webcast (0ct 28, 2020)</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                >Carriage Services 3Q20 Earnings Webcast (0ct 28, 2020)</a
+              >
+            </li>
+          </ul>
+          <a href="#" class="button mt-4">View All Press Releases</a>
+        </div>
+        <div class="flex flex-col items-start">
+          <h2 class="mt-12">Earnings Releases</h2>
+          <ul class="list-disc pl-6">
+            <li>
+              <a href="#"
+                >Carriage Services 3Q20 Earnings Webcast (0ct 28, 2020)</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                >Carriage Services 3Q20 Earnings Webcast (0ct 28, 2020)</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                >Carriage Services 3Q20 Earnings Webcast (0ct 28, 2020)</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                >Carriage Services 3Q20 Earnings Webcast (0ct 28, 2020)</a
+              >
+            </li>
+          </ul>
+          <a href="#" class="button mt-4">View All Earnings Releases</a>
+        </div>
       </div>
       <div style="flex:25%;">
         <h3 class="text-green">HEADQUARTERS</h3>
@@ -46,22 +84,48 @@
         <p>Houston, Texas 77056</p>
         <p>713.332.8400</p>
         <p>www.carriageservices.com</p>
+        <h3 class="text-green mt-8">HEADQUARTERS</h3>
+        <p>Carriage Services, Inc.</p>
+        <p>3040 Post Oak Boulevard Suite 300</p>
+        <p>Houston, Texas 77056</p>
+        <p>713.332.8400</p>
+        <p>www.carriageservices.com</p>
+        <h3 class="text-green mt-8">HEADQUARTERS</h3>
+        <p>Carriage Services, Inc.</p>
+        <p>3040 Post Oak Boulevard Suite 300</p>
+        <p>Houston, Texas 77056</p>
+        <p>713.332.8400</p>
+        <p>www.carriageservices.com</p>
       </div>
     </div>
-    <h2>Stock Performance</h2>
-    <img src="/stock.png" />
-    <div class="flex w-full">
-      <div class="flex w-full w-1/4 items-center justify-center icons">
-        <img src="/print.svg" />
-      </div>
-      <div class="flex w-full w-1/4 items-center justify-center icons">
-        <img src="/email.svg" />
-      </div>
-      <div class="flex w-full w-1/4 items-center justify-center icons">
-        <img src="/rss.svg" />
-      </div>
-      <div class="flex w-full w-1/4 items-center justify-center icons">
-        <img src="/question.svg" />
+    <div class="max-w-6xl mx-auto">
+      <h2 class="px-12 mb-8">Stock Performance</h2>
+      <img class="px-12" src="/stock.png" />
+      <div class="flex w-full py-12">
+        <div
+          class="flex flex-col w-full w-1/4 items-center justify-center icons"
+        >
+          <img src="/print.svg" />
+          <p class="font-bold mt-4">Print Page</p>
+        </div>
+        <div
+          class="flex flex-col w-full w-1/4 items-center justify-center icons"
+        >
+          <img src="/email.svg" />
+          <p class="font-bold mt-4">Email Alerts</p>
+        </div>
+        <div
+          class="flex flex-col w-full w-1/4 items-center justify-center icons"
+        >
+          <img src="/rss.svg" />
+          <p class="font-bold mt-4">RSS</p>
+        </div>
+        <div
+          class="flex flex-col w-full w-1/4 items-center justify-center icons"
+        >
+          <img src="/question.svg" />
+          <p class="font-bold mt-4">Investor FAQ</p>
+        </div>
       </div>
     </div>
   </div>
@@ -83,33 +147,72 @@ export default {};
   }
 }
 @font-face {
-  font-family: 'heading';
-  src: url('/head-book.ttf');
+  font-family: "heading";
+  src: url("/head-book.ttf");
 }
 @font-face {
-  font-family: 'body-bold';
-  src: url('/body-bold.ttf');
+  font-family: "body-bold";
+  src: url("/body-bold.ttf");
 }
 @font-face {
-  font-family: 'body-light';
-  src: url('/body-light.ttf');
+  font-family: "body-heavy";
+  src: url("/body-heavy.ttf");
 }
 @font-face {
-  font-family: 'body-reg';
-  src: url('/body-reg.ttf');
+  font-family: "body-light";
+  src: url("/body-light.ttf");
 }
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'heading';
+@font-face {
+  font-family: "body-reg";
+  src: url("/body-reg.ttf");
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "heading";
+  color: #252525;
+}
+.button {
+  font-family: "body-bold";
+  font-size: 16px;
+  color: #252525;
+  text-transform: uppercase;
+  text-decoration: none;
+  @apply p-4 pr-12 border-2 rounded relative;
+  border-color: #252525;
+  display: inline-block;
+  min-width: 315px;
+  &:after {
+    content: url("/TriangleDark.svg");
+    @apply absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 }
 #investor-relations {
   .hero {
-    background-image: url('/Benefits.jpg');
+    background-image: url("/Benefits.jpg");
     background-size: cover;
     background-position: center;
     height: 600px;
   }
   .bg-grey {
     background: linear-gradient(to right, #191919, #282828);
+    p {
+      color: white;
+    }
+    .button {
+      color: #a6a6a6;
+      border-color: #a6a6a6;
+      min-width: none;
+      &:after {
+        content: url("/Triangle.svg");
+      }
+    }
   }
   h1 {
     color: white;
@@ -122,25 +225,29 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "body-bold";
   }
   p {
-    color: white;
     font-family: "body-reg";
   }
 }
-.button {
-  font-family: "body-bold";
-  font-size: 16px;
-  color: #a6a6a6;
-  text-transform: uppercase;
-  @apply p-4 pr-12 border rounded relative;
-  &:after {
-  content: url('/Triangle.svg');
-    @apply absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-}
+
 .border-grey {
-    border-color: #444444 !important;
+  border-color: #444444 !important;
+}
+h2 {
+  font-size: 50px;
+}
+p,
+li,
+a {
+  font-family: "body-reg";
+  color: #494949;
+}
+a {
+  text-decoration: underline;
+}
+.text-green {
+  color: #376205 !important;
+}
+.font-bold {
+  font-family: "body-heavy" !important;
 }
 </style>
