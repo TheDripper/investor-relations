@@ -1,15 +1,17 @@
 <template>
   <div id="board-of-directors">
     <div class="max-w-6xl mx-auto py-12 px-6 lg:px-0">
-      <h1 class="mb-4">Board of Directors</h1>
-      <p class="mb-8 w-1/2">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Donec ac odio tempor
-        orci dapibus ultrices. Eu ultrices vitae auctor eu augue ut. Tellus
-        elementum sagittis vitae et leo duis ut.
-      </p>
-      <div class="flex items-start px-8 lg:px-12 py-6 border-b">
-        <img class="mr-6" src="/portrait.png" />
+      <div class="lg:px-12">
+        <h1 class="mb-4">Board of Directors</h1>
+        <p class="mb-8 w-full lg:w-1/2">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec ac
+          odio tempor orci dapibus ultrices. Eu ultrices vitae auctor eu augue
+          ut. Tellus elementum sagittis vitae et leo duis ut.
+        </p>
+      </div>
+      <div class="flex items-start lg:px-8 lg:px-12 py-6 border-b">
+        <img class="mr-6 w-1/3 lg:w-1/5" src="/portrait.png" />
         <div class="bio">
           <p class="font-bold mb-2">Mel Payne</p>
           <p>CEO and Chairman of the Board</p>
@@ -18,8 +20,8 @@
           </ul>
         </div>
       </div>
-      <div class="flex items-start px-8 lg:px-12 py-6 border-b">
-        <img class="mr-6" src="/portrait.png" />
+      <div class="flex items-start lg:px-8 lg:px-12 py-6 border-b">
+        <img class="mr-6 w-1/3 lg:w-1/5" src="/portrait.png" />
         <div class="bio">
           <p class="font-bold mb-2">Mel Payne</p>
           <p>CEO and Chairman of the Board</p>
@@ -28,8 +30,8 @@
           </ul>
         </div>
       </div>
-      <div class="flex items-start px-8 lg:px-12 py-6 border-b">
-        <img class="mr-6" src="/portrait.png" />
+      <div class="flex items-start lg:px-8 lg:px-12 py-6 border-b">
+        <img class="mr-6 w-1/3 lg:w-1/5" src="/portrait.png" />
         <div class="bio">
           <p class="font-bold mb-2">Mel Payne</p>
           <p>CEO and Chairman of the Board</p>
@@ -38,7 +40,7 @@
           </ul>
         </div>
       </div>
-      <p class="text-xs text-light-grey mt-12 px-16">
+      <p class="text-xs text-light-grey mt-12 lg:px-16">
         Nulla felis dolor, tincidunt quis felis vel, fringilla consequat ligula.
         Donec congue et est sit amet consectetur. Morbi aliquet sollicitudin
         arcu, sit amet mattis purus eleifend eget. Sed convallis ligula ligula,
