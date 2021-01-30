@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/leadership", {data:[{}],fetch:[],mutations:void 0});
