@@ -1,6 +1,6 @@
 <template>
   <div id="board-of-directors">
-    <div class="max-w-6xl mx-auto py-12">
+    <div class="max-w-6xl mx-auto py-12 px-6 lg:px-0">
       <h1 class="mb-4">Board of Directors</h1>
       <p class="mb-8 w-1/2">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -8,7 +8,7 @@
         orci dapibus ultrices. Eu ultrices vitae auctor eu augue ut. Tellus
         elementum sagittis vitae et leo duis ut.
       </p>
-      <div class="flex items-start px-12 py-6 border-b">
+      <div class="flex items-start px-8 lg:px-12 py-6 border-b">
         <img class="mr-6" src="/portrait.png" />
         <div class="bio">
           <p class="font-bold mb-2">Mel Payne</p>
@@ -18,7 +18,7 @@
           </ul>
         </div>
       </div>
-      <div class="flex items-start px-12 py-6 border-b">
+      <div class="flex items-start px-8 lg:px-12 py-6 border-b">
         <img class="mr-6" src="/portrait.png" />
         <div class="bio">
           <p class="font-bold mb-2">Mel Payne</p>
@@ -28,7 +28,7 @@
           </ul>
         </div>
       </div>
-      <div class="flex items-start px-12 py-6 border-b">
+      <div class="flex items-start px-8 lg:px-12 py-6 border-b">
         <img class="mr-6" src="/portrait.png" />
         <div class="bio">
           <p class="font-bold mb-2">Mel Payne</p>
@@ -50,7 +50,7 @@
         lacus. Fusce diam eros, dignissim id imperdiet in, iaculis vel ipsum.
         Aliquam erat volutpat.
       </p>
-      <div class="flex w-full py-12 max-w-6xl mx-auto">
+      <div class="flex flex-col md:flex-row w-full py-12 max-w-6xl mx-auto">
         <div
           class="flex flex-col w-full w-1/4 items-center justify-center icons"
         >

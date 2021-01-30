@@ -1,5 +1,5 @@
 <template>
-  <div id="stock-information">
+  <div id="stock-information" class="px-4 lg:px-0">
     <div class="max-w-6xl mx-auto mt-12">
       <h1>Stock Information</h1>
       <p>
@@ -16,7 +16,7 @@
           data-tab="0"
           class="tab w-1/5  py-2 border border-light-grey"
         >
-          <p>Quote & Chart</p>
+          <p v-on:click="thisTab" data-tab="0">Quote & Chart</p>
         </div>
         <div
           v-on:click="thisTab"
@@ -24,7 +24,7 @@
           data-tab="1"
           class="tab w-1/5  py-2 border border-light-grey"
         >
-          <p>Tab 2</p>
+          <p v-on:click="thisTab" data-tab="1">Tab 2</p>
         </div>
         <div
           v-on:click="thisTab"
@@ -32,7 +32,7 @@
           data-tab="2"
           class="tab w-1/5  py-2 border border-light-grey"
         >
-          <p>Tab 3</p>
+          <p v-on:click="thisTab" data-tab="2">Tab 3</p>
         </div>
         <div
           v-on:click="thisTab"
@@ -40,7 +40,7 @@
           data-tab="3"
           class="tab w-1/5  py-2 border border-light-grey"
         >
-          <p>Tab 4</p>
+          <p v-on:click="thisTab" data-tab="3">Tab 4</p>
         </div>
         <div
           v-on:click="thisTab"
@@ -48,14 +48,14 @@
           data-tab="4"
           class="tab w-1/5  py-2 border border-light-grey"
         >
-          <p>Tab 5</p>
+          <p v-on:click="thisTab" data-tab="4">Tab 5</p>
         </div>
       </div>
-      <div class="tab-content py-24 px-12 border border-grey">
+      <div class="tab-content py-12 md:py-24 px-12 border border-grey">
         <div id="tab-0" v-if="currentTab == 0">
-          <div class="flex w-full">
-            <div style="flex:33%;" class="p-6">
-              <img src="/stock-price.png" />
+          <div class="flex flex-col lg:flex-row w-full">
+            <div style="flex:33%;" class="p-6 mb-6 lg:mb-0">
+              <img class="mx-auto" src="/stock-price.png" />
             </div>
             <div class="flex justify-center" style="flex:66%;">
               <div style="flex:50%;">
@@ -181,7 +181,7 @@
               Aliquam erat volutpat.
             </p>
           </div>
-          <div class="flex w-full py-12 max-w-6xl mx-auto">
+          <div class="flex flex-col md:flew-row w-full py-12 max-w-6xl mx-auto">
             <div
               class="flex flex-col w-full w-1/4 items-center justify-center icons"
             >
@@ -226,7 +226,7 @@
 </template>
 <style lang="scss">
 .tab {
-  @apply flex items-center justify-center mr-2 border-b-0;
+  @apply flex items-center justify-center mr-2 border-b-0 p-2;
   background: #eaeaea;
   cursor: pointer;
   &:last-child {

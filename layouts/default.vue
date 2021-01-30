@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ul class="flex justify-center top-nav">
+    <ul class="flex flex-col md:flex-row justify-center top-nav">
       <li>
         <a href="/"><h3>Investor Relations</h3></a>
       </li>
@@ -25,6 +25,10 @@
 .icons {
   img {
     max-width: 100px;
+  }
+  @apply mt-4;
+  @screen lg {
+    @apply mt-0;
   }
 }
 @font-face {
@@ -163,6 +167,11 @@ th {
       right: -1rem;
       top: 50%;
       transform: translateY(-50%);
+    }
+  }
+  li:last-child {
+    h3:after {
+      display: none;
     }
   }
 }
